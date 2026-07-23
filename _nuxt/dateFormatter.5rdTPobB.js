@@ -1,0 +1,2 @@
+function n(e,a){if(!e)return"";const t=new Date(e);if(isNaN(t.getTime()))return e;const i={includeTime:!0,locale:"az-AZ",...a};return i.includeTime?t.toLocaleString(i.locale,{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}):t.toLocaleDateString(i.locale,{day:"2-digit",month:"2-digit",year:"numeric"})}function r(e){return n(e,{includeTime:!0})}function o(e){return n(e,{includeTime:!1})}export{r as a,o as f};
+//# sourceMappingURL=dateFormatter.5rdTPobB.js.map
